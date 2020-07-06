@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "description": "Cleanup Some proposal",
+  "license": "Fair",
+  "scripts": {
+    "prebuild": "mkdirp out",
+    "build": "ecmarkup spec/index.html out/index.html"
+  },
+  "dependencies": {
+    "ecmarkup": "^3.14.0",
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "@alrra/travis-scripts": "^3.0.0"
+  },
+  "version": "1.0.0",
+  "repository": {
+    "type": "git"
+  }
+}
