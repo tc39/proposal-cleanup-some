@@ -4,7 +4,7 @@
   <emu-alg>
     1. Let _finalizationRegistry_ be the *this* value.
     1. Perform ? RequireInternalSlot(_finalizationRegistry_, [[Cells]]).
-    1. If _callback_ is not *undefined* and IsCallable(_callback_) is
+    1. If _callback_ is present and IsCallable(_callback_) is
     *false*, throw a *TypeError* exception.
     1. Perform ? CleanupFinalizationRegistry(_finalizationRegistry_, _callback_).
     1. Return *undefined*.
