@@ -2,7 +2,7 @@
 
 Champion group: Daniel Ehrenberg, Yulia Startsev
 
-Stage: Currently, part of the Stage 3 WeakRefs proposal. Proposed to be a separate Stage 2 or 3 proposal.
+Stage 2
 
 # Introduction
 
@@ -46,7 +46,7 @@ Splitting `cleanupSome` into a separate proposal would make it clear to the Java
 
 ## Committee status
 
-Splitting `cleanupSome` off from the WeakRefs proposal has not yet been presented to TC39. We could consider it at Stage 2 or 3, depending on the committee's preference. The champions plan to seek consensus on this in the July 2020 TC39 meeting.
+`FinalizationRegistry.prototype.cleanupSome` has been off from the WeakRefs proposal and is at Stage 2.
 
 ## History
 
